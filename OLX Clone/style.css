@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Assets/Fonts/Roboto-Medium.ttf);
+}
+*{
+ padding: 0;
+ margin: 0;   
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+.header{
+    /* width: 100%;
+    height: 100px; */
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    border-bottom: 0 solid #f2f4f5;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.header-top{
+max-width: 1280px;
+border: 1px solid purple;
+/* background-color: blue; */
+margin-left: auto;
+margin-right: auto;
+margin-top: 1rem;
+display: flex;
+align-items: center;
+}
+
+.small-logo{
+    margin-right: 4rem;
+    padding-bottom: .6rem;
+    display: block;
+}
+
+.small-logo-a{
+    display: flex;
+}
+
+.small-logo-svg{
+    /* width: 3.2rem;
+    height: 2rem; */
+    fill: #3a77ff;
+}
+
+.motor-logo{
+    margin-right: 4rem; 
+}
+
+.property-logo{
+    margin-right: 4rem;
+}
+
+/* Header Searchbar Area */
+
+.btn-login{
+    appearance: none;
+    background: none;
+    border: none;
+}
+
+.header-searchbar{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 1rem 0;
+    border: 1px solid red;
+}
+
+.header-searchbar-logo{
+    margin: 20px;
+}
+
+.header-searchbar-logo a{
+    display: flex;
+}
+
+.header-searchbar-logosvg{
+    height: 35px;
+    /* margin: auto; */
+}
+
+.search-country{
+    display: inline-block;
+    margin: 0 1.6rem 0 3.5rem;
+    width: 27.2rem;
+    min-width: 27.2rem;
+}
